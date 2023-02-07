@@ -12,7 +12,7 @@ pipeline {
         sh 'ls -la'
       }
     }
-/*
+
     stage('Build') {
       steps {
         sh 'docker build -f curriculum-front/Dockerfile -t fuze365/curriculum-front:latest .'
@@ -34,6 +34,6 @@ pipeline {
         sh 'docker push fuze365/curriculum-front:latest'
       }
     }
-*/
+
   }
 }
